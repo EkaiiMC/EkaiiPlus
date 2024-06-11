@@ -1,0 +1,78 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = language_select_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1718020347520
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:c6f15bfc-3878-49d6-9827-78c82af54e5e-1718020347520] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+element {
+  source = [source:local]
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = d6a9478f-aafa-49e3-ad7f-694e534d107c1705072208192
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  x = 0
+  y = 6
+  width = 0
+  height = 100
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = c957f572-19f3-47d2-aa50-9777161d6e42-1718020347520
+  [loading_requirement_container_meta:c957f572-19f3-47d2-aa50-9777161d6e42-1718020347520] = [groups:][instances:]
+}
+
+element {
+  source = [source:web]https://blog.meme-lords.com/wp-content/uploads/2020/10/EF3MyecX0AAN1Q6.jpg
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = 53d629da-2d14-4871-b56b-07767365e6281705072212001
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-left
+  x = 0
+  y = -50
+  width = 100
+  height = 100
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 59eaaa34-c144-4850-8f78-0f3a7c9dc00a-1718020347520
+  [loading_requirement_container_meta:59eaaa34-c144-4850-8f78-0f3a7c9dc00a-1718020347520] = [groups:][instances:]
+}
+

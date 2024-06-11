@@ -1,0 +1,16 @@
+key_modifiers_key.socialInteractions:1,0,0
+key_modifiers_key.smoothCamera:1,0,0
+key_modifiers_key.saveToolbarActivator:1,0,0
+key_modifiers_key.advancements:0,1,0
+key_modifiers_key.amecs.toggle_auto_jump:1,0,0
+key_modifiers_key.camerautils.zoom:1,0,0
+key_modifiers_key.camerautils.third_person_cam_1:1,0,0
+key_modifiers_key.camerautils.third_person_cam_2:1,0,0
+key_modifiers_key.camerautils.detach_camera:1,0,0
+key_modifiers_key.camerautils.third_person_settings:1,0,0
+key_modifiers_key.gammautils.gammaToggle:1,0,0
+key_modifiers_key.gammautils.nightVisionToggle:1,0,0
+key_modifiers_physicsmod.keybinding.togglephysics:1,0,0
+key_modifiers_gui.xaero_enlarge_map:1,0,0
+key_modifiers_iris.keybind.reload:1,0,0
+key_modifiers_iris.keybind.toggleShaders:1,0,0

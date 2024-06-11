@@ -1,0 +1,13 @@
+name = "Camera Utils"
+filename = "camerautils-fabric-1.20.6-1.0.9.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/rrwQMaWQ/versions/z4AIHwdB/camerautils-fabric-1.20.6-1.0.9.jar"
+hash-format = "sha1"
+hash = "f9e57ce366da61b2160645ca50727551221491ed"
+
+[update]
+[update.modrinth]
+mod-id = "rrwQMaWQ"
+version = "z4AIHwdB"

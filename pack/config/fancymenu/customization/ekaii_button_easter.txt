@@ -1,0 +1,60 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = net.minecraft.class_6599
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1718020347510
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:e0c52a96-3160-4444-8e4b-da931a2766db-1718020347510] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+element {
+  button_element_executable_block_identifier = a07c0324-6a7f-4408-ae2d-4752f7dc8c76-1718020347516
+  [executable_action_instance:76641fcd-3f4c-405d-bcad-9e6398fd275e-1718020347518][action_type:openlink] = https://youtu.be/7amwjJEeytU?t=44
+  [executable_block:a07c0324-6a7f-4408-ae2d-4752f7dc8c76-1718020347516][type:generic] = [executables:76641fcd-3f4c-405d-bcad-9e6398fd275e-1718020347518;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  hoverlabel = Quoi ???
+  label = ?
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 4d91b601-d243-430b-87f4-3ce5627c27901704986872270
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = bottom-right
+  x = -101
+  y = -29
+  width = 100
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 95451b25-425d-4ba0-b3a4-1b15c9ba2c56-1718020347518
+  [loading_requirement_container_meta:95451b25-425d-4ba0-b3a4-1b15c9ba2c56-1718020347518] = [groups:][instances:]
+}
+

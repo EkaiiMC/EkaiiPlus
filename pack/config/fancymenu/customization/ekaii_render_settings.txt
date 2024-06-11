@@ -1,0 +1,50 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = me.flashyreese.mods.reeses_sodium_options.client.gui.SodiumVideoOptionsScreen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1718020347552
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:7d618f61-9ee6-4c36-8f6a-b9e1da96a890-1718020347552] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+element {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = t'as des fps ou pas?%n%on a tous fait pour :)
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 2
+  width = 132
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 8b6de321-155f-4051-ad45-c05c355bdc691704986130788
+  y = 312
+  alignment = left
+  height = 23
+  element_type = fancymenu_customization_item_text
+}
+

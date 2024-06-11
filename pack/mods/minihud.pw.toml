@@ -1,0 +1,7 @@
+name = "MiniHUD"
+filename = "minihud-fabric-1.20.6-0.30.999-sakura.10.jar"
+
+[download]
+url = "https://github.com/sakura-ryoko/minihud/releases/download/1.20.6-sakura.10/minihud-fabric-1.20.6-0.30.999-sakura.10.jar"
+hash-format = "sha256"
+hash = "21bb2e8e5a8f41bbeded801b33f7773a36310e18244da45533ec99a2fc9f551b"

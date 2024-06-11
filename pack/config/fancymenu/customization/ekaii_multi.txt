@@ -1,0 +1,89 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = join_multiplayer_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1718020347540
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:834ed7b6-b5f3-475b-b60e-0efdea6f0d68-1718020347540] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+element {
+  source = resources/ekaii/splash.txt
+  source_mode = text_file
+  scale = 1.0
+  shadow = true
+  rotation = 20.0
+  base_color = #ffff00
+  refresh = false
+  bouncing = true
+  element_type = splash_text
+  instance_identifier = 707d059c-377c-4dc7-9af0-7b90dbc19fcd1704989705465
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  x = 488
+  y = 77
+  width = 100
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 23e933ba-8630-45c4-a973-0378a5832940-1718020347543
+  [loading_requirement_container_meta:23e933ba-8630-45c4-a973-0378a5832940-1718020347543] = [groups:][instances:]
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = e736fc9a-61f2-4f2a-bc30-58392cc8dd7c-1718020347540
+  [executable_block:e736fc9a-61f2-4f2a-bc30-58392cc8dd7c-1718020347540][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 8975
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = top-left
+  x = 0
+  y = 10
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 53b75add-690c-477e-af90-50eb08d1ad9a-1718020347540
+  [loading_requirement_container_meta:53b75add-690c-477e-af90-50eb08d1ad9a-1718020347540] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
