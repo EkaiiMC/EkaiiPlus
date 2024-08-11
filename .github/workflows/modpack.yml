@@ -52,7 +52,7 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           automatic_release_tag: v${{ env.version }}
           title: EkaiiPlus v${{ env.version }}
-          prerelease: true
+          prerelease: false
           files: |
             pack/*.mrpack
             pack/*.zip
