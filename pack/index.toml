@@ -1027,7 +1027,7 @@ metafile = true
 
 [[files]]
 file = "mods/minihud.pw.toml"
-hash = "dfa29268e5bf4dd3e74a95e38348636673165e7a13576b51f1254c23e2939969"
+hash = "f5f61005d6b4e9d084c20ed20470599180f7f7c2cc100c3c3b18f6e719d1312b"
 metafile = true
 
 [[files]]
@@ -1223,56 +1223,24 @@ file = "realms_persistence.json"
 hash = "2190e827f4701033bef5a6fd955d5a30519fb7727c6f126519743af1a467f51b"
 
 [[files]]
-file = "resourcepacks/BetterVanillaBuildingV2.98.zip"
-hash = "b7dca3dcf27225e2465dd4483b6837241a194d62e4f0cdba2aa4e6b9f6ac7a75"
+file = "resourcepacks/ambientsounds5-remastered.pw.toml"
+hash = "c77fd4ab3df6c8c96a6f042202da8ed26072d41367df7a55dae32bb092fe23a7"
+metafile = true
 
 [[files]]
-file = "resourcepacks/FreshAnimations_v1.9.zip"
-hash = "24e434f4332ef645a4c985163cdcf08eef43698f538d78da56b1814d632b1ae1"
+file = "resourcepacks/bettervanillabuilding.pw.toml"
+hash = "c7deb68ef2f5b19f1f9bcddcc2599286966871d00acfec4b2f849d71c6b332d0"
+metafile = true
 
 [[files]]
-file = "resourcepacks/Icons v.1.10.1º7.zip"
-hash = "1b939d1211f4db46a73fd2cb70b3eab03ab51d8614cba737e8057bd5a45bcfbd"
+file = "resourcepacks/fresh-animations.pw.toml"
+hash = "256b67c869770482657d4dd31124bf705c780c5c798206af522bcd5392c7ded9"
+metafile = true
 
 [[files]]
-file = "resourcepacks/J'ai une grosse... armure sussy baka.zip"
-hash = "55dd67899b575d3707b671a7dfc3bb569d180352df9bf620695021fdf5df61cd"
-
-[[files]]
-file = "resourcepacks/Moi, j'aime les armes.zip"
-hash = "567636572cf886075384b615099613f897123e4f702c1e946057f11c70405f05"
-
-[[files]]
-file = "resourcepacks/aide moi la maintenaaant.zip"
-hash = "5cc43f6eda17bc068c4d0e8657e3cb1f4e9adbc858c0d09dda139ca9f6034670"
-
-[[files]]
-file = "resourcepacks/je veux des items moi.zip"
-hash = "0d57b06a63c6aee2df3c68f954d8e84be863dc5ecbbd3590d9fd320dba364fe1"
-
-[[files]]
-file = "resourcepacks/je vole wowww.zip"
-hash = "dc15409ad93d45b62bf924d6dc1ba7ecf89dfba2bff4a7ffc4eef108be0251d4"
-
-[[files]]
-file = "resourcepacks/la vie ce ressourcespack.zip"
-hash = "bfdc6f58d37d491e4f656653b7e8328c63b4e2e9d99ff959fff11e37778455bc"
-
-[[files]]
-file = "resourcepacks/nongko's_Fantasy_Weapons_v1.14.zip"
-hash = "3d18688bc3d477173242210750551a072db9fd2b393a2d10321cfee899a174ef"
-
-[[files]]
-file = "resourcepacks/toujours plus d'items.zip"
-hash = "6336c58ad31cf42f4fd66f59c5106056a30f11cd2ac961d1a6088ce8c8f50c24"
-
-[[files]]
-file = "resourcepacks/ya du son chelou laaaa.zip"
-hash = "2c0868ae9cd0835cde11432992d32e520e8d531a8189739193f7933ef8ae00ab"
-
-[[files]]
-file = "resourcepacks/º1Drodi's Illagers FA [V4.4].zip"
-hash = "fc7651a1ea74d22f20ef945affe2ffc48d74916f674e162ff9ff42f08f3ed479"
+file = "resourcepacks/icons.pw.toml"
+hash = "eeb0a666627b9a76a107b7d6b14e41821a4fa61422eb959b79a8e786801b8fe9"
+metafile = true
 
 [[files]]
 file = "resources/ekaii/1984-movie.gif"
@@ -1312,28 +1280,23 @@ hash = "051acf20e0b12c8aab1e65fda941f9b084cf7be47a20fc0946f7bfe1690d2c65"
 
 [[files]]
 file = "servers.dat"
-hash = "dd6f76a20c77fc33ae211be18b0df719284609e6b2fbc2cbca1a779b4dd170cc"
+hash = "7fd04899f82e6907f71dc3bf2024467bb23faaf137880c7d2b34d5d3f569de32"
 
 [[files]]
 file = "servers.dat_old"
-hash = "b5c44130bb8af10e57a2d09984eb374960437198d2efddb859a81349ff9d6430"
+hash = "a7aa6b1cf9cafc1fd79623e6d4b4343e685440e80b12289e903cd2855ae954ff"
 
 [[files]]
-file = "shaderpacks/Bliss-latest.zip"
-hash = "87ca2ca3a70b698f52bc15552cc1ff6fe4ee981ded3dde4e299e5987d8fab5c6"
+file = "shaderpacks/bliss-shader.pw.toml"
+hash = "c8de367e791fa5d6b903ff7154aee21ff66f57e4e484bc53189779c0041c05ba"
+metafile = true
 
 [[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.2.1.zip.txt"
-hash = "5bb18bf4a3921ef91af3b7b375541aeaf2107a1f0954d3257a8ed99626dd0ddf"
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "88e40e1591ad381291207cce0d547507ae6ca44893185a1e7ef37b7b86f29e57"
+metafile = true
 
 [[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.2.2.zip"
-hash = "3b0cd5c36afebdcd74521a447ca5f2b0d6f9c1c8c8416a9f20d9bedc271a8e1c"
-
-[[files]]
-file = "shaderpacks/ComplementaryUnbound_r5.2.1 + EuphoriaPatches_1.3.1.txt"
-hash = "057927445566df499a2e8ffcca52379d755e1a0849b040df9f7d7e96338f0487"
-
-[[files]]
-file = "shaderpacks/ComplementaryUnbound_r5.2.2.zip"
-hash = "d880aba42c6dc89816450a143f746ddb56ff00faa9241e12af20e6e966c02f00"
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "9ed342e0d8a2200d2a5c01826dba51b70433ad2c0e998fda893b5fa2911c2516"
+metafile = true

@@ -1,12 +1,12 @@
 name = "EkaiiPlus"
 author = "EkaiiMC"
-version = "1.21-dev.1"
+version = "1.21-beta.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "9557e8a3ba962d2a997de9d4b3055bd69f6135529d768fd90048da1a2dd04a37"
+hash = "e2380a97007ea582cb22480602bfcb682ea6ec7ac7edb97b96d57f4650ab2afd"
 
 [versions]
 fabric = "0.16.0"
