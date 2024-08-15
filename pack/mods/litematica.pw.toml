@@ -1,7 +1,13 @@
 name = "Litematica"
-filename = "litematica-fabric-1.20.6-0.18.0.jar"
+filename = "litematica-fabric-1.20.6-0.18.1.jar"
+side = "both"
 
 [download]
-url = "https://github.com/sakura-ryoko/litematica/releases/download/1.20.6-0.18.0/litematica-fabric-1.20.6-0.18.0.jar"
-hash-format = "sha256"
-hash = "2d709aeafdcf8f1f0fe5885f1de5dfb14fb4a8003ed2a7eebdc21bfc0a54bb87"
+hash-format = "sha1"
+hash = "d38ac5eac860b7a51a2e667eca18c411e19f5d60"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5523424
+project-id = 308892

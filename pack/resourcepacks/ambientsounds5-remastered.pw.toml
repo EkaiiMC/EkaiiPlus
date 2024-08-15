@@ -1,0 +1,13 @@
+name = "AmbientSounds: Remastered Sounds Pack"
+filename = "AmbientSounds5 R1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/8T25m0sh/versions/Mi7vmMch/AmbientSounds5%20R1.zip"
+hash-format = "sha1"
+hash = "2d4b43b04b0c482bead8cb5ce42d025ef3391cf3"
+
+[update]
+[update.modrinth]
+mod-id = "8T25m0sh"
+version = "Mi7vmMch"
