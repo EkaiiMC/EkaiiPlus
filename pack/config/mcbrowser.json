@@ -1,0 +1,10 @@
+{
+  "openLinkInBrowser": false,
+  "homePage": "https://cine.ekaii.fr/",
+  "asyncBrowserInput": true,
+  "saveCookies": true,
+  "saveTabs": true,
+  "enableMediaStream": true,
+  "limitBrowserFramerate": false,
+  "browserFPS": 60
+}

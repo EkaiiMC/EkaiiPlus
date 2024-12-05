@@ -1,0 +1,54 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = confirm_link_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1725814812727
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:f376d2a3-f0c9-4860-a95f-01da926e9278-1725814812727] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+element {
+  source = [source:web]https://i.chzbgr.com/full/8991997440/h63383FFA/well-hello-there
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = 6c0ceae3-e6ae-4ea7-9305-ced60aad70481709768553583
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -50
+  y = -50
+  width = 100
+  height = 100
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = be280dff-b4ea-4507-9954-690ba8dbd995-1725814812727
+  [loading_requirement_container_meta:be280dff-b4ea-4507-9954-690ba8dbd995-1725814812727] = [groups:][instances:]
+}
+

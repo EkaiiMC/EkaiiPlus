@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = net.minecraft.class_6599
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1718020347510
+  last_edited_time = 1725814812752
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:e0c52a96-3160-4444-8e4b-da931a2766db-1718020347510] = [groups:][instances:]
+  [loading_requirement_container_meta:063cc5f3-fd83-49a5-b5ca-3d5765f49556-1725814812752] = [groups:][instances:]
 }
 
 customization {
@@ -29,9 +29,9 @@ scroll_list_customization {
 }
 
 element {
-  button_element_executable_block_identifier = a07c0324-6a7f-4408-ae2d-4752f7dc8c76-1718020347516
-  [executable_action_instance:76641fcd-3f4c-405d-bcad-9e6398fd275e-1718020347518][action_type:openlink] = https://youtu.be/7amwjJEeytU?t=44
-  [executable_block:a07c0324-6a7f-4408-ae2d-4752f7dc8c76-1718020347516][type:generic] = [executables:76641fcd-3f4c-405d-bcad-9e6398fd275e-1718020347518;]
+  button_element_executable_block_identifier = ca278228-53af-4cc2-b45a-04890df5dab8-1725814812758
+  [executable_action_instance:0f5c9439-8bee-4e8e-882a-9d5b007e4977-1725814812759][action_type:openlink] = https://youtu.be/7amwjJEeytU?t=44
+  [executable_block:ca278228-53af-4cc2-b45a-04890df5dab8-1725814812758][type:generic] = [executables:0f5c9439-8bee-4e8e-882a-9d5b007e4977-1725814812759;]
   restartbackgroundanimations = true
   loopbackgroundanimations = true
   nine_slice_custom_background = false
@@ -54,7 +54,7 @@ element {
   stretch_x = false
   stretch_y = false
   stay_on_screen = false
-  element_loading_requirement_container_identifier = 95451b25-425d-4ba0-b3a4-1b15c9ba2c56-1718020347518
-  [loading_requirement_container_meta:95451b25-425d-4ba0-b3a4-1b15c9ba2c56-1718020347518] = [groups:][instances:]
+  element_loading_requirement_container_identifier = 3a1796b5-eecf-4b33-aff1-5203056e5e7e-1725814812761
+  [loading_requirement_container_meta:3a1796b5-eecf-4b33-aff1-5203056e5e7e-1725814812761] = [groups:][instances:]
 }
 

@@ -1,12 +1,12 @@
 {
-	"PinningEnabled": false,
-	"ShowAdvancementIDInDebugTooltip": false,
-	"ShowDebugInfo": "ALWAYS",
-	"MaxCriterionEntries": 6,
-	"FadeOutBackgroundOnAdvancementHover": false,
-	"SaveLastSelectedTab": false,
+	"PinningEnabled": true,
+	"ShowAdvancementIDInDebugTooltip": true,
+	"ShowDebugInfo": "DEBUG_TOOLTIPS_ENABLED",
+	"MaxCriterionEntries": 2,
+	"FadeOutBackgroundOnAdvancementHover": true,
+	"SaveLastSelectedTab": true,
 	"PinnedTabs": [],
-	"LastSelectedTab": "",
+	"LastSelectedTab": "minecraft:end/root",
 	"SpacingBetweenHorizontalTabs": 4,
 	"SpacingBetweenPinnedTabs": 2
 }

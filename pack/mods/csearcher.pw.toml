@@ -1,0 +1,13 @@
+name = "ContainerSearcher"
+filename = "ContainerSearcher-0.3.1+mc1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/IK1wshSh/versions/iSBoHJMy/ContainerSearcher-0.3.1%2Bmc1.21.1.jar"
+hash-format = "sha1"
+hash = "ee8673456e37d847acd22e37d1a7f8477d56f0f0"
+
+[update]
+[update.modrinth]
+mod-id = "IK1wshSh"
+version = "iSBoHJMy"

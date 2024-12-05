@@ -1,7 +1,13 @@
-name = "tweakeroo"
-filename = "tweakeroo-fabric-1.21-0.20.999-sakura.24.jar"
+name = "Tweakeroo"
+filename = "tweakeroo-fabric-1.21-0.21.54.jar"
+side = "client"
 
 [download]
-url = "https://github.com/sakura-ryoko/tweakeroo/releases/download/1.21-sakura.24/tweakeroo-fabric-1.21-0.20.999-sakura.24.jar"
-hash-format = "sha256"
-hash = "e27880401700d1fe8c24ac9be4e95ed36062de2e3f095828d8e43928567512d5"
+url = "https://cdn.modrinth.com/data/t5wuYk45/versions/P3aPXrIO/tweakeroo-fabric-1.21-0.21.54.jar"
+hash-format = "sha1"
+hash = "7a22868f19f1728f04dac42b865b749a06e0cb86"
+
+[update]
+[update.modrinth]
+mod-id = "t5wuYk45"
+version = "P3aPXrIO"

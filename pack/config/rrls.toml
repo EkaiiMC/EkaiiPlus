@@ -1,13 +1,13 @@
-hideType = "RELOADING"
+hideOverlays = "ALL"
 rgbProgress = false
-forceClose = false
 blockOverlay = false
 miniRender = true
+enableScissor = false
 type = "PROGRESS"
 reloadText = "Edit in config!"
-resetResources = false
+resetResources = true
 reInitScreen = true
 removeOverlayAtEnd = true
 earlyPackStatusSend = false
 doubleLoad = "FORCE_LOAD"
-animationSpeed = 500.0
+animationSpeed = 1000.0

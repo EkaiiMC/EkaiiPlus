@@ -10,5 +10,12 @@
   "gradientEnd": "#000000",
   "gradientEndAlpha": 75,
   "gradientRotation": 0,
-  "rainbowMode": false
+  "rainbowMode": false,
+  "excludedScreens": [
+    "net.irisshaders.iris.gui.screen.ShaderPackScreen"
+  ],
+  "forceEnabledScreens": [
+    "dev.emi.emi.screen.RecipeScreen"
+  ],
+  "forceDisabledScreens": []
 }

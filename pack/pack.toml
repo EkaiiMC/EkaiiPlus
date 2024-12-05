@@ -1,16 +1,16 @@
 name = "EkaiiPlus"
 author = "EkaiiMC"
-version = "1.21-beta.1"
+version = "1.21.1-1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "e2380a97007ea582cb22480602bfcb682ea6ec7ac7edb97b96d57f4650ab2afd"
+hash = "ceea9f9e75d0ddece7ff2ead30c00797bf1f2645e0d221aca351a3f327fa9fad"
 
 [versions]
-fabric = "0.16.0"
-minecraft = "1.21"
+fabric = "0.16.9"
+minecraft = "1.21.1"
 
 [options]
-acceptable-game-versions = ["1.20", "1.20.1", "1.20.2", "1.20.3", "1.20.4", "1.20.5", "1.20.6"]
+acceptable-game-versions = []

@@ -37,12 +37,12 @@ jobs:
           cd pack/
           packwiz curseforge export -o EkaiiPlus-v${{ env.version }}-curseforge.zip
       - name: Upload .mrpack
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: EkaiiPlus-v${{ env.version }}-modrinth.mrpack
           path: pack/*.mrpack
       - name: Upload curseforge zip
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: EkaiiPlus-v${{ env.version }}-curseforge.zip
           path: pack/*.zip

@@ -1,0 +1,13 @@
+name = "Elytra Airplanes"
+filename = "CIT Airplanes.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/PxWhsgfy/versions/9oxnoEZA/CIT%20Airplanes.zip"
+hash-format = "sha1"
+hash = "63994cfd88c73265330048decfb07e7e589421dd"
+
+[update]
+[update.modrinth]
+mod-id = "PxWhsgfy"
+version = "9oxnoEZA"

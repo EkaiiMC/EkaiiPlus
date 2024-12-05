@@ -1,0 +1,13 @@
+name = "Teyvat Weapon Collection"
+filename = "Teyvat Weapon Collection 1.4.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/c3runLeD/versions/HaMq6zJH/Teyvat%20Weapon%20Collection%201.4.1.zip"
+hash-format = "sha1"
+hash = "833e026e06b33b9be32cd1e08649095d5f5f106c"
+
+[update]
+[update.modrinth]
+mod-id = "c3runLeD"
+version = "HaMq6zJH"

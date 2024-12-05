@@ -67,7 +67,7 @@ compassLocation:1
 compassDirectionScale:0
 caveMapsDepth:30
 hideWaypointCoordinates:false
-renderAllSets:false
+renderAllSets:true
 playerArrowOpacity:100
 waypointsBottom:false
 minimapShape:1
@@ -78,7 +78,7 @@ lightOverlayColor:13
 uiScale:0
 bossHealthPushBox:1
 potionEffectPushBox:1
-minimapFrame:0
+minimapFrame:2
 minimapFrameColor:9
 compassColor:9
 northCompassColor:-1
