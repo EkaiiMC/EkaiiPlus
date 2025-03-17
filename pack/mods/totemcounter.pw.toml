@@ -1,13 +1,13 @@
 name = "TotemCounter"
-filename = "totemcounter-1.6.1+mc1.21.jar"
+filename = "totemcounter-1.7.0+mc1.21.2.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/T9R7YTnA/versions/IKkXFg8J/totemcounter-1.6.1%2Bmc1.21.jar"
+url = "https://cdn.modrinth.com/data/T9R7YTnA/versions/w9gKHBo8/totemcounter-1.7.0%2Bmc1.21.2.jar"
 hash-format = "sha1"
-hash = "fb1d6035bd1d783330bae757d1013c0ad888f6e9"
+hash = "babb29d05d05498cf2c0c8479664ccb114a200cf"
 
 [update]
 [update.modrinth]
 mod-id = "T9R7YTnA"
-version = "IKkXFg8J"
+version = "w9gKHBo8"

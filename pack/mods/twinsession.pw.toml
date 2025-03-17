@@ -1,0 +1,13 @@
+name = "TwinSession"
+filename = "twinsession-1.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/4DL4BvA5/versions/5xgU9Tpo/twinsession-1.1.1.jar"
+hash-format = "sha1"
+hash = "654cc9ff822401cd3abe426858b228e4a6d5239d"
+
+[update]
+[update.modrinth]
+mod-id = "4DL4BvA5"
+version = "5xgU9Tpo"

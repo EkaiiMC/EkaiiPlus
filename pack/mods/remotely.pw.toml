@@ -1,0 +1,13 @@
+name = "Remotely"
+filename = "remotely-1.3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/LuYZT6NN/versions/SNG3H0kg/remotely-1.3.jar"
+hash-format = "sha1"
+hash = "6ce1efc1e234dc2ce54037eb482d4711acf45737"
+
+[update]
+[update.modrinth]
+mod-id = "LuYZT6NN"
+version = "SNG3H0kg"

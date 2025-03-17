@@ -1,19 +1,24 @@
 {
   "Fixes": {
-    "elytraFix": false,
+    "elytraSprintCancel": false,
     "macHorizontalScroll": false,
     "ravagerClientBlockBreakFix": false
   },
   "Generic": {
     "accuratePlacementProtocolMode": "auto",
     "accuratePlacementProtocol": true,
+    "bundleDisplayBgColor": true,
+    "bundleDisplayRequireShift": true,
+    "bundleDisplayRowWidth": 9,
     "clientPlacementRotation": true,
+    "debugLogging": false,
     "fastLeftClickAllowTools": false,
     "fastPlacementRememberOrientation": true,
     "freeCameraPlayerInputs": false,
     "freeCameraPlayerMovement": false,
     "handRestockPre": true,
     "hangableEntityBypassInverse": false,
+    "inventoryPreviewVillagerBGColor": false,
     "itemUsePacketCheckBypass": true,
     "mapPreviewRequireShift": true,
     "permanentSneakAllowInGUIs": false,
@@ -21,6 +26,7 @@
     "potionWarningBeneficialOnly": true,
     "rememberFlexibleFromClick": true,
     "shulkerDisplayBgColor": true,
+    "shulkerDisplayEnderChest": false,
     "shulkerDisplayRequireShift": true,
     "slotSyncWorkaround": true,
     "slotSyncWorkaroundAlways": false,
@@ -28,12 +34,18 @@
     "snapAimOnlyCloseToAngle": true,
     "snapAimPitchOvershoot": false,
     "zoomAdjustMouseSensitivity": true,
+    "areaSelectionUseAll": false,
+    "restrictionLayerHeight": 1,
     "blockTypeBreakRestrictionWarn": "message",
     "breakingRestrictionMode": "line",
     "elytraCameraIndicator": "with_key",
     "entityTypeAttackRestrictionWarn": "message",
     "placementRestrictionMode": "face",
     "hotbarSwapOverlayAlignment": "bottom_right",
+    "selectiveBlocksTrackPistons": false,
+    "selectiveBlocksHideParticles": true,
+    "selectiveBlocksHideEntities": false,
+    "selectiveBlocksNoHit": true,
     "snapAimMode": "yaw",
     "chatTimeFormat": "[HH:mm:ss]",
     "chatBackgroundColor": "#80000000",
@@ -78,6 +90,9 @@
     "renderLimitItem": -1,
     "renderLimitXPOrb": -1,
     "sculkSensorPulseLength": 40,
+    "serverDataSyncCacheRefresh": 0.25,
+    "serverDataSyncCacheTimeout": 0.75,
+    "serverNbtRequestRate": 2,
     "snapAimPitchStep": 12.5,
     "snapAimThresholdPitch": 1.5,
     "snapAimThresholdYaw": 5.0,
@@ -86,6 +101,7 @@
     "toolSwitchableSlots": "1-9",
     "toolSwitchIgnoredSlots": "",
     "toolSwapBetterEnchants": false,
+    "toolSwapSilkTouchFirst": true,
     "weaponSwapBetterEnchants": false,
     "zoomFov": 30.0,
     "zoomResetFovOnActivate": true
@@ -166,6 +182,9 @@
     "inventoryPreview": {
       "keys": "LEFT_ALT"
     },
+    "inventoryPreviewToggleScreen": {
+      "keys": ""
+    },
     "openConfigGui": {
       "keys": "X,C"
     },
@@ -217,6 +236,15 @@
     "toolPick": {
       "keys": ""
     },
+    "areaSelectionOffset": {
+      "keys": "LEFT_SHIFT"
+    },
+    "areaSelectionAddToList": {
+      "keys": ""
+    },
+    "areaSelectionRemoveFromList": {
+      "keys": ""
+    },
     "writeMapsAsImages": {
       "keys": ""
     },
@@ -242,9 +270,6 @@
       "minecraft:villager"
     ],
     "entityTypeAttackRestrictionWhiteList": [],
-    "preferSilkTouch": [
-      "minecraft:ender_chest"
-    ],
     "entityWeaponMapping": [
       "\u003cdefault\u003e \u003d\u003e minecraft:mace, minecraft:netherite_sword, minecraft:diamond_sword, minecraft:iron_sword, minecraft:golden_sword, minecraft:stone_sword, minecraft:wooden_sword",
       "minecraft:end_crystal, minecraft:item_frame, minecraft:glow_item_frame, minecraft:leash_knot \u003d\u003e \u003cignore\u003e",
@@ -275,10 +300,6 @@
       "minecraft:lava_bucket",
       "minecraft:glass_bottle"
     ],
-    "flatWorldPresets": [
-      "White Glass;1*minecraft:white_stained_glass;minecraft:plains;;minecraft:white_stained_glass",
-      "Glass;1*minecraft:glass;minecraft:plains;;minecraft:glass"
-    ],
     "handRestockListType": "none",
     "handRestockBlackList": [
       "minecraft:bucket",
@@ -306,7 +327,10 @@
     "unstackingItems": [
       "minecraft:bucket",
       "minecraft:glass_bottle"
-    ]
+    ],
+    "selectiveBlocksListType": "none",
+    "selectiveBlocksWhitelist": "",
+    "selectiveBlocksBlacklist": ""
   },
   "DisableToggles": {
     "disableArmorStandRendering": {
@@ -722,11 +746,13 @@
     "tweakAfterClicker": false,
     "tweakAimLock": false,
     "tweakAngelBlock": false,
+    "tweakAreaSelector": false,
     "tweakAutoSwitchElytra": false,
     "§6tweakBlockReachOverride§r": false,
     "tweakBlockTypeBreakRestriction": false,
     "tweakBreakingGrid": false,
     "tweakBreakingRestriction": false,
+    "tweakBundleDisplay": false,
     "tweakChatBackgroundColor": false,
     "tweakChatPersistentText": false,
     "tweakChatTimestamp": false,
@@ -783,7 +809,10 @@
     "tweakRenderLimitEntities": false,
     "tweakRepairMode": false,
     "§6tweakSculkPulseLength§r": false,
+    "tweakSelectiveBlocksRendering": false,
+    "tweakSelectiveBlocksRenderOutline": false,
     "tweakServerDataSync": false,
+    "tweakServerDataSyncBackup": false,
     "tweakShulkerBoxDisplay": false,
     "tweakSignCopy": false,
     "tweakSnapAim": false,
@@ -811,6 +840,9 @@
     "tweakAngelBlock": {
       "keys": ""
     },
+    "tweakAreaSelector": {
+      "keys": ""
+    },
     "tweakAutoSwitchElytra": {
       "keys": ""
     },
@@ -824,6 +856,9 @@
       "keys": ""
     },
     "tweakBreakingRestriction": {
+      "keys": ""
+    },
+    "tweakBundleDisplay": {
       "keys": ""
     },
     "tweakChatBackgroundColor": {
@@ -994,7 +1029,16 @@
     "§6tweakSculkPulseLength§r": {
       "keys": ""
     },
+    "tweakSelectiveBlocksRendering": {
+      "keys": ""
+    },
+    "tweakSelectiveBlocksRenderOutline": {
+      "keys": ""
+    },
     "tweakServerDataSync": {
+      "keys": ""
+    },
+    "tweakServerDataSyncBackup": {
       "keys": ""
     },
     "tweakShulkerBoxDisplay": {

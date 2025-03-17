@@ -1,0 +1,13 @@
+name = "Inventory Control Tweaks"
+filename = "inventory-control-tweaks-1.6.1+MC1.21.4.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/sPYwFCE0/versions/HnasZNoh/inventory-control-tweaks-1.6.1%2BMC1.21.4.jar"
+hash-format = "sha1"
+hash = "9c7a21ad06173b0aba672c071983dd60f389c125"
+
+[update]
+[update.modrinth]
+mod-id = "sPYwFCE0"
+version = "HnasZNoh"

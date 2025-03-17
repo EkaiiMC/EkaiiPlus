@@ -33,7 +33,7 @@ element {
   enable_scrolling = true
   shadow = true
   scale = 1.0
-  source = Modpack Custom : Exo, Timault, Inir
+  source = Modpack Custom : Exo, EllipsiaLePoulet, Timault, Inir
   text_border = 0
   case_mode = normal
   source_mode = direct

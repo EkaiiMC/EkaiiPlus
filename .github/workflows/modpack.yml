@@ -18,14 +18,22 @@ jobs:
         run: |
           git config --global user.name "actions@github.com"
           git config --global user.email "GitHub Actions"
-      - name: Read TOML
+      - name: Read Version Number
         uses: SebRollen/toml-action@v1.2.0
         id: read_toml
         with:
           file: pack/pack.toml
           field: version
+      - name: Read Minecraft Version
+        uses: SebRollen/toml-action@v1.2.0
+        id: read_toml_mc
+        with:
+          file: pack/pack.toml
+          field: versions.minecraft
       - name: Set Version
         run: echo version=${{ steps.read_toml.outputs.value }} >> $GITHUB_ENV
+      - name: Set Minecraft Version
+        run: echo minecraft_version=${{ steps.read_toml_mc.outputs.value }} >> $GITHUB_ENV
       - name: Install packwiz
         run: go install github.com/packwiz/packwiz@latest
       - name: Generate .mrpack
@@ -56,3 +64,19 @@ jobs:
           files: |
             pack/*.mrpack
             pack/*.zip
+      - name: Release on Modrinth
+        uses: dsx137/modrinth-release-action@main
+        env:
+          MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+        with:
+          name: EkaiiPlus v${{ env.version }}
+          project_id: ${{ vars.MODRINTH_PROJECT_ID }}
+          loaders: forge
+          game_versions: ${{ env.minecraft_version }}
+          version_number: ${{ env.version }}
+          files: |
+            pack/*.mrpack
+          version_type: release
+          featured: true
+          status: 'listed' # or archived, draft, unlisted, scheduled, unknown
+          requested_status: 'listed' # or archived, draft, unlisted

@@ -1,0 +1,13 @@
+name = "Cubium"
+filename = "cubium-1.1.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/DoYPZlsi/versions/Nc3VIF13/cubium-1.1.0.jar"
+hash-format = "sha1"
+hash = "94b739e4d84ed8f1ad0149ae099ba9316399bd50"
+
+[update]
+[update.modrinth]
+mod-id = "DoYPZlsi"
+version = "Nc3VIF13"

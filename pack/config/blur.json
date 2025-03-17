@@ -1,9 +1,12 @@
 {
   "configVersion": 2,
   "blurContainers": true,
+  "blurTitleScreen": false,
+  "darkenTitleScreen": false,
   "fadeTimeMillis": 300,
   "fadeOutTimeMillis": 300,
   "animationCurve": "FLAT",
+  "radius": 5,
   "useGradient": true,
   "gradientStart": "#000000",
   "gradientStartAlpha": 75,

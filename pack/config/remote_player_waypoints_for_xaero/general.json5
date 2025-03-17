@@ -4,10 +4,12 @@
 	"serverEntries": [
 		{
 			"maptype": "Bluemap",
-			"ip": "betterping.ekaii.fr:30066",
-			"link": "https://map.ekaii.fr"
+			"ip": "ekaii.fr",
+			"link": "map.ekaii.fr",
+			"markerVisibilityMode": "All",
+			"markerLayers": []
 		}
-	],
+    ],
 	"defaultY": 64,
 	"minimapWaypointsRenderBelow": "WHEN_PLAYER_LIST_SHOWN",
 	"enablePlayerWaypoints": true,
@@ -21,10 +23,14 @@
 	"playerWaypointColor": "Black",
 	"enableMarkerWaypoints": true,
 	"markerWaypointColor": "Gray",
-	"ignoredServers": [],
+	"ignoredServers": [
+		"minecraftanarchy.com",
+		"ekaii.fr"
+	],
 	"ignoreMarkerMessage": false,
 	"debugMode": false,
-	"minDistance": 20,
+	"chatLogInDebugMode": true,
+	"minDistance": 0,
 	"maxDistance": 100000,
 	"maxIconDistance": 100000,
 	"minDistanceMarker": 0,

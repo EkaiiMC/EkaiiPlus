@@ -1,0 +1,13 @@
+name = "Component Viewer"
+filename = "componentviewer-fabric-1.2.0+1.21.4.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/P9vIqP8R/versions/Qp8fsxmH/componentviewer-fabric-1.2.0%2B1.21.4.jar"
+hash-format = "sha1"
+hash = "f08d112a43f928b37552774ba66f3b319a9f52fa"
+
+[update]
+[update.modrinth]
+mod-id = "P9vIqP8R"
+version = "Qp8fsxmH"

@@ -1,0 +1,13 @@
+name = "Quit Game Confirm"
+filename = "QuitGameConfirm-1.0.0-FABRIC.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/NZNQRSNh/versions/FQjzU9A4/QuitGameConfirm-1.0.0-FABRIC.jar"
+hash-format = "sha1"
+hash = "6dd9d7d661a22aefd429a0725cde793d856aa54b"
+
+[update]
+[update.modrinth]
+mod-id = "NZNQRSNh"
+version = "FQjzU9A4"
